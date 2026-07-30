@@ -1,4 +1,4 @@
-/input output programme
+//input output programme
 #include<iostream>
 using namespace std;
 
