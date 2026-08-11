@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void swap(int a, int b)
+void swap(int &a, int &b)
 {
     int temp;
     temp = a;
@@ -12,7 +12,7 @@ void swap(int a, int b)
 }
 int main(){
     int a , b; 
-    cout << "enter value in a and b";
+    cout << "enter value in a and b : ";
     cin >> a >> b;
     cout << "Inside main function before swap: a = " << a << ", b = " << b << endl;
     swap(a, b);
