@@ -2,11 +2,9 @@
 using namespace std;
 void printPattern(int n) {
     for (int i = 1; i <= n; i++) {
-            char ch = 'A';
-            for(int j = 1; j <= i; j++) {
-            cout << ch << " ";
-            ch++;
-        }
+         for(int j = 1; j <= i; j++) {
+         cout << char('A' +(i-1)) << " ";
+    }
         cout << endl;           
 }
      
